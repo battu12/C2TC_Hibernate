@@ -16,30 +16,30 @@ public class Client {
 		em.getTransaction().begin();
 		
 		Department department=new Department();
-		department.setId(1);
+		department.setId(3);
 		department.setName("CS");
 		
 		Department department1=new Department();
-		department1.setId(2);
+		department1.setId(4);
 		department1.setName("MECH");
 		
 		Employee employee1=new Employee();
-		employee1.setEid(110);
+		employee1.setEid(117);
 		employee1.setEname("John");
 		employee1.setEsalary(5000);
 		
 		Employee employee2=new Employee();
-		employee2.setEid(111);
+		employee2.setEid(119);
 		employee2.setEname("Snow");
 		employee2.setEsalary(4000);
 		
 		Employee employee3=new Employee();
-		employee3.setEid(210);
+		employee3.setEid(218);
 		employee3.setEname("James");
 		employee3.setEsalary(3000);
 		
 		Employee employee4=new Employee();
-		employee4.setEid(211);
+		employee4.setEid(219);
 		employee4.setEname("Ash");
 		employee4.setEsalary(3000);
 		

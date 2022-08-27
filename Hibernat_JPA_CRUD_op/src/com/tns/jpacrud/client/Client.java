@@ -13,7 +13,7 @@ public class Client {
 		Student student1=new Student();
 		
 		//Insert operation
-		student1.setStudent_id(101);
+		student1.setStudent_id(103);
         student1.setName("M S Dhoni");
         studentService.addStudent(student1);
         

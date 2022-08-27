@@ -1,7 +1,6 @@
 package com.tns.jpacrud.dao;
 
 import javax.persistence.EntityManager;
-
 import com.tns.jpacrud.entities.Student;
 
 public class StudentDaoImpl implements StudentDao{
