@@ -16,16 +16,15 @@ public static void main(String[] args) {
 		
 		em.getTransaction().begin();
 		
-		 Employee emp1=new Employee(); emp1.setNamee("Damon"); emp1.setSalary(10000); 
+		 Employee emp1=new Employee(); emp1.setNamee("Ash"); emp1.setSalary(10000); 
 		 em.persist(emp1);
+	
+		Manager manager1=new Manager();
+		manager1.setNamee("Corner");
+		manager1.setSalary(35000);
+		manager1.setDepartmentName("Tester");
+		em.persist(manager1);
 		 
-		
-		
-		/*Manager manager1=new Manager();
-		manager1.setNamee("John Snow");
-		manager1.setSalary(1000);
-		manager1.setDepartmentName("Developer");
-		em.persist(manager1);*/
 		em.getTransaction().commit();
 		System.out.println("Added one employee and manager to database.");
 		
